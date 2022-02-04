@@ -1,0 +1,30 @@
+{
+  "name": "trusted-authority-discord-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
+  "contributors": [
+    "Mircea Nistor <mircea.nistor@mesh.xyz>"
+  ],
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "ts-node src/bot",
+    "register": "ts-node src/register-commands"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "@veramo/credential-w3c": "^3.1.0",
+    "@veramo/data-store": "^3.1.0",
+    "@veramo/did-manager": "^3.1.0",
+    "@veramo/did-provider-ethr": "^3.1.0",
+    "@veramo/key-manager": "^3.1.0",
+    "@veramo/kms-local": "^3.1.0",
+    "cross-fetch": "^3.1.5",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "sqlite3": "^5.0.2",
+    "ts-node": "^10.4.0",
+    "typeorm": "0.2.38",
+    "typescript": "^4.5.5"
+  }
+}
